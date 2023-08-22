@@ -7,7 +7,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    {/* <Web3AuthProvider>
+    {/* <Web3AuthProvider>;[=]
       <SmartAccountProvider> */}
         <App />
       {/* </SmartAccountProvider>
