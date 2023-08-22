@@ -3,7 +3,8 @@
 
 A simple counter contract which uses Biconomy SDK and paymasters. Users can login using web3auth social login and use any of the paymasters. To check the implementation of paymaster, kindly check the components section. 
 
-
+For Gasless Paymaster : users can increase count if you have funds in your paymaster and use the URL
+For ERC20 Paymaster : users need to own USDC (preferred token) you can have other supported tokens too, make sure they have these tokens in Smart Account.
 
 ## Biconomy Dashboard Registration
 
