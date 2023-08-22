@@ -18,13 +18,14 @@ import CounterERC20 from "./Components/erc20paymaster";
 
 
 const bundler: IBundler = new Bundler({
-  bundlerUrl: 'https://bundler.biconomy.io/api/v2/80001/nJPK7B3ru.dd7f7861-190d-41bd-af80-6877f74b8f44', // you can get this value from biconomy dashboard.     
+  bundlerUrl: 'https://bundler.biconomy.io/api/v2/80001/nJPK7B3ru.dd7f7861-190d-41bd-af80-6877f74b8f44', // only for testnet uses, you can get this value from biconomy dashboard. 
+    
   chainId: ChainId.POLYGON_MUMBAI,
   entryPointAddress: DEFAULT_ENTRYPOINT_ADDRESS,
 })
 
 const paymaster: IPaymaster = new BiconomyPaymaster({
-  paymasterUrl: 'https://paymaster.biconomy.io/api/v1/80001/4ZlAzboCM.aae18863-66d9-442e-80cd-8386fd6a1c0e' 
+  paymasterUrl: ' ' // get paymaster URL from dashboard.biconomy.io
 })
 
 export default function Home() {
